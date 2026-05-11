@@ -2,7 +2,12 @@
 	"name": "my-website",
 	"version": "0.0.0",
 	"private": true,
+	"portless": {
+		"name": "docusaurus",
+		"script": "start"
+	},
 	"scripts": {
+		"dev": "portless",
 		"docusaurus": "docusaurus",
 		"start": "docusaurus start",
 		"build": "docusaurus build",
@@ -29,6 +34,7 @@
 		"@docusaurus/tsconfig": "3.10.1",
 		"@docusaurus/types": "3.10.1",
 		"@types/react": "^19.0.0",
+		"portless": "^0.13.0",
 		"typescript": "~6.0.2"
 	},
 	"browserslist": {
