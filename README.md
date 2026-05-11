@@ -1,3 +1,18 @@
+# Portless-Docusaurus breakage repro
+
+This is a minimal repro showing that [Portless](https://portless.sh/) does not work out-of-the-box with [Docusaurus](https://docusaurus.io/).
+
+```bash
+npm install
+npm run dev
+```
+
+The Docusaurus site will be available at `localhost:PORT`, but `docusaurus.localhost:1355` does not work.
+
+The Docusaurus default README follows.
+
+---
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
